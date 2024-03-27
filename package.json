@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "defaults": "^3.0.0",
+    "define-data-property": "^1.0.1",
+    "has-property-descriptors": "^1.0.0",
+    "node": "^18.20.0",
+    "nodejs": "^0.0.0",
+    "object-keys": "^1.1.1",
+    "shell": "^0.9.4"
+  }
+}

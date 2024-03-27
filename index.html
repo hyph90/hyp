@@ -1,1 +1,13 @@
-<h1>dev</h1>
+<h1>papg</h1>
+<div>s</div>
+var clone = require('clone');
+
+var a, b;
+
+a = { foo: { bar: 'baz' } };  // initial value of a
+
+b = clone(a);                 // clone a -> b
+a.foo.bar = 'foo';            // change a
+
+console.log(a);               // show a
+console.log(b);               // show b
