@@ -1,0 +1,14 @@
+import sdk from '@stackblitz/sdk'
+
+sdk.embedProjectId(
+  'elementOrId',
+  'jq-starter-8djvgs',
+  {
+    forceEmbedLayout: true,
+    openFile: 'readme.md',
+    theme: 'light',
+    clickToLoad: true,
+    hideExplorer: true,
+    hideNavigation: true,
+  }
+);
