@@ -1,0 +1,8 @@
+technique_id,technique_description,tactic_description,matched_malicious_indicators_count,matched_suspicious_indicators_count,matched_informative_indicators_count
+T1430,"Location Tracking",Discovery,0,1,0
+T1421,"System Network Connections Discovery",Discovery,0,0,1
+T1420,"File and Directory Discovery",Discovery,0,1,0
+T1114,"Email Collection",Collection,0,1,0
+T1430,"Location Tracking",Collection,0,1,0
+T1573,"Encrypted Channel","Command and Control",0,0,1
+T1095,"Non-Application Layer Protocol","Command and Control",0,1,0
